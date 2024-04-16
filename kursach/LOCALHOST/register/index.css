@@ -1,0 +1,119 @@
+.container2
+{
+    font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(139, 167, 143), rgb(55, 216, 141)); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header
+{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    border: 3px solid;
+}
+
+.header_logo
+{
+    font-size: 30px;
+    font-weight: 600;
+    color: aliceblue;
+    padding-left: 30px;
+    text-decoration:  none;
+    transition: color .2s linear;
+}
+.header_logo:hover
+{
+    color: blueviolet;
+}
+
+.nav
+{
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+
+.nav_link
+{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    color: aliceblue;
+    text-decoration:  none;
+    transition: color .2s linear;
+    
+}
+
+.nav_link:after
+{
+content:"";
+display: block;
+width: 100%;
+height: 3px;
+display: none;
+background-color: blueviolet;
+position: absolute;
+top: 100%;
+left: 0;
+right: 0;
+}
+
+.nav_link:hover
+{
+color: blueviolet;
+}
+
+
+
+
+.h1
+{
+    padding-left: 45%;
+}
+
+.mb-3
+{
+    
+    padding-left: 45%;
+
+}
+
+.mi8
+{
+    width: 200px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #91da55;
+    border-radius : 10px;
+    font-size: 16px;
+    color: #ffffff;
+
+}
+
+
+.register
+{
+    padding-top: 15px;
+    padding-left: 45%;
+}
+
+.knopka
+{
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #91da55;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    width: 180px;
+}

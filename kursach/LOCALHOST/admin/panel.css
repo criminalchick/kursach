@@ -1,0 +1,173 @@
+
+.containerm1
+{
+    font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    width:100%;
+    height:100%;
+    background: linear-gradient(to right, rgb(240, 128, 76), rgb(196, 54, 54)); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header
+{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    border: 3px solid;
+}
+
+.header_logo
+{
+    font-size: 30px;
+    font-weight: 600;
+    color: aliceblue;
+    padding-left: 30px;
+    text-decoration:  none;
+    transition: color .2s linear;
+}
+.header_logo:hover
+{
+    color: blueviolet;
+}
+
+.nav
+{
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+
+.nav_link
+{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    color: aliceblue;
+    text-decoration:  none;
+    transition: color .2s linear;
+    
+}
+
+.nav_link:after
+{
+content:"";
+display: block;
+width: 100%;
+height: 3px;
+display: none;
+background-color: blueviolet;
+position: absolute;
+top: 100%;
+left: 0;
+right: 0;
+}
+
+.nav_link:hover
+{
+color: blueviolet;
+}
+
+
+
+.panel
+{
+    text-align: center;
+}
+
+.poisk
+{
+
+    height: 5%;
+    width: 350px;
+    background-color: #1b1b1b;
+    color: rgb(255, 255, 255);
+    padding: 30px 40px;
+    
+}
+.polzovateli
+{
+    float: left;
+}
+
+.knopka
+{
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #3c522b;
+    color: #fff;
+    padding: 4px 12px;
+    font-size: 16px;
+    width: 250px;
+}
+
+.search
+{
+    display: block;
+    overflow-y: scroll;
+    white-space: nowrap;
+    position: fixed;
+    height: 78%;
+    width: 430px;
+    background-color: #1b1b1b;
+    color: rgb(255, 255, 255);
+
+    scroll-margin-bottom: 100px;
+}
+
+
+
+.section {
+    display: flex;
+    overflow-x: hidden;
+    padding-left: 50%;
+ }
+
+ .submit5
+{
+    float: left;
+width: 100px;
+height: 20px;
+    border-radius: 5px;
+    color: #fff;
+background: #111;
+
+}
+
+.submit5:hover
+{
+    color: blueviolet;
+}
+
+.dobavka
+{
+    display: block;
+    float:right;
+    width: 650px;
+    height: 500px;
+    margin-right: 50px;
+}
+
+.but1
+{
+width: 300px;
+height: 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.but2
+{
+    width: 180px;
+height: 20px;
+    border-radius: 5px;
+    color: #fff;
+background: #111;
+}
+.but2:hover
+{
+    color: blueviolet;
+}

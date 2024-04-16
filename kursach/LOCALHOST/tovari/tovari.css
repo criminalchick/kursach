@@ -1,0 +1,162 @@
+.header
+    {
+    font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(226, 165, 94), rgb(212, 81, 252)); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    }
+
+.header_inner
+{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.header_logo
+{
+    font-size: 30px;
+    font-weight: 600;
+    color: aliceblue;
+    padding-left: 30px;
+    text-decoration:  none;
+    transition: color .2s linear;
+}
+
+.nav
+{
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+
+.nav_link
+{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    color: aliceblue;
+    text-decoration:  none;
+    transition: color .2s linear;
+    
+}
+
+.nav_link:after
+{
+content:"";
+display: block;
+width: 100%;
+height: 3px;
+display: none;
+background-color: blueviolet;
+position: absolute;
+top: 100%;
+left: 0;
+right: 0;
+}
+
+.nav_link:hover
+{
+color: blueviolet;
+}
+
+
+
+
+.border-all
+{
+    display: flex;
+    height: 95%; 
+    justify-content: space-between;
+}
+
+
+
+.border-boxcenter
+{
+box-sizing: border-box;
+font-family: "Open Sans", sans-serif;
+height: 100%;
+width: 100%;
+border: 5px solid #1f1b1b;
+background: linear-gradient(to right, rgb(131, 95, 55), rgb(117, 47, 138)); 
+
+}
+
+.headtovar
+{
+    padding-left: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 220px;
+
+}
+
+.image {
+    flex-shrink: 0;
+    max-width: 350px;
+    max-height: 250px;
+    padding-top: 5%;
+    padding-left: 35%;
+    
+
+  }
+  .image img {
+    width: 150%;
+    height: 150%;
+    object-fit: contain;
+    
+  }
+
+  .name
+{
+    font-size: 32px;
+    padding-left: 250px;
+    width: 250px;
+}
+
+.opis
+{
+    width: 650px;
+    height: max-content;
+    font-size: 18px;
+    color:rgb(0, 0, 0);
+
+    margin-top:  50px;
+
+}
+
+
+    .sub6
+    {
+        float: left;
+    width: 170px;
+    height: 50px;
+        border-radius: 10px;
+        color: #fff;
+    background: #111;
+    margin-left: 250px;
+    margin-top: 50px;
+
+    
+    }
+    
+    .sub6:hover
+    {
+        color: blueviolet;
+    }
+
+    .cena
+    {
+        font-size: 24;
+        margin-left: 250px;
+        margin-top: 25px;
+        width: 250px;
+    }
